@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { CounterContext } from '../CounterContext';
 
 function Header(props) {
-
+    const [counter] = useContext(CounterContext)
     return(
         <div className="header">
             <h1>Counter</h1>
-            <div>0</div>
+            <div>{counter}</div>
         </div>
     );
 }

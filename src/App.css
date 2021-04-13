@@ -21,3 +21,20 @@
   font-size: 40px;
 }
 
+.counter {
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: #f9f9f9;
+  color: #f1f;
+}
+
+.counter .neg, .pos {
+  width: 5em;
+  height: 5em;
+  border-radius: 4px;
+  background-color: #f1f;
+  color: #f9f9f9;
+}
+
+
+
